@@ -1,0 +1,6 @@
+model,gold_post_coef,gold_post_p,cropland_post_p,hdi_post_coef,hdi_post_p,n
+"A: baseline (gold, cropland, HDI)",0.0017,<0.0001,0.063,3.158,0.103,338
+"B: full controls (+density, unemp, light)",0.0019,<0.0001,0.57,6.737,0.02,338
+C: excluding Sahel,0.0018,<0.0001,0.149,2.791,0.163,312
+D: fatalities as DV,0.0023,<0.0001,0.062,2.892,0.275,338
+E: PPML (Poisson),0.0017,0.0049,0.594,-5.602,0.083,338
